@@ -71,9 +71,13 @@ This dashboard helps businesses to:
 
 ---
 
-### 📂 Files Included
+## 📸 Dashboard Preview
 
-* E-commerce.pbix → Power BI dashboard file
-* dashboard-preview.png → Dashboard screenshot
+![E-Commerce Dashboard](dashboard-preview.png)
 
+---
+
+## 📂 Files Included
+- E-commerce.pbix → Power BI dashboard file  
+- dashboard-preview.png → Dashboard screenshot  
 ---
