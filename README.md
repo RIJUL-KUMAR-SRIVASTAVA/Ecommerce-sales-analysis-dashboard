@@ -1,33 +1,39 @@
-# 📊 E-Commerce Sales & Profit Dashboard (Power BI)
+🚀 Project Overview
 
-## 🚀 Project Overview
-This project presents an interactive Power BI dashboard analyzing e-commerce sales performance, profit trends, and customer insights.
+Developed an interactive Power BI dashboard to analyze e-commerce sales, profit trends, and customer behavior using real-world transactional data. The dashboard enables data-driven decision-making by identifying key revenue drivers and performance patterns.
 
-## 🔧 Tools & Technologies
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Visualization
+🔧 Tools & Technologies
+Power BI
+DAX (Data Analysis Expressions)
+Microsoft Excel (Data Cleaning)
+Data Visualization
 
-## 📈 Key Insights
-- Technology category generates highest sales
-- Sales show consistent growth over time
-- Top customers contribute significantly to revenue
-- Regional performance differences identified
+📈 Key Insights
+Technology category contributes the highest revenue share
+Sales show a consistent upward trend over time
+Top 10 customers contribute a significant portion of total revenue
+Regional analysis highlights performance variations across states
 
-## 📊 Dashboard Features
-- KPI Cards (Total Sales, Profit, Profit %, Orders)
-- Sales trend over time (Year & Month)
-- Sales distribution by state
-- Category-wise performance
-- Top 10 customers analysis
-- Interactive filters (Category, Region, Date)
+📊 Dashboard Features
+KPI Cards: Total Sales (1.1M+), Total Profit, Profit Margin %, Total Orders
+Time-series analysis (Year & Month trends)
+State-wise sales distribution
+Category-wise sales & profit analysis
+Top 10 customers by revenue
+Interactive filters (Category, Region, Date)
 
-## 📸 Dashboard Preview
-<img src="dashboard-preview.png" width="100%">
+⚙️ DAX Measures Used
+Profit Margin % = DIVIDE(SUM(Profit), SUM(Sales))
+Total Orders = COUNT(Order ID)
+Average Order Value = DIVIDE(SUM(Sales), COUNT(Order ID))
 
-## 🎯 Business Use Case
-This dashboard helps businesses track sales performance, identify profitable categories, and analyze customer contribution to revenue, enabling better decision-making.
+🎯 Business Use Case
 
-## 📂 Files Included
-- `E-commerce.pbix` → Power BI dashboard file
-- `dashboard-preview.png` → Dashboard screenshot
+This dashboard helps businesses:
+Monitor sales and profitability trends
+Identify high-performing categories and regions
+Analyze customer contribution to revenue
+Support strategic decision-making
+📂 Files Included
+E-commerce.pbix → Power BI dashboard file
+dashboard-preview.png → Dashboard screenshot
